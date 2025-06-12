@@ -6,9 +6,8 @@
 2. [Semi-Simulated EEG/EOG](https://github.com/WilliamRo/EEG-Denoise)
 3. [EEGDiR Denoising Dataset](https://www.sciencedirect.com/science/article/abs/pii/S001048252400711X)
 4. [Motion Artifact Contaminated fNIRS and EEG Data](https://www.physionet.org/content/motion-artifact/1.0.0/)
-5. [Measuring EMG and EEG simultaneously to determine the EMG pollution in the EEG during a variety of tasks](https://researchdata.gla.ac.uk/676/), need requestment
-6. [EEG, EMG, EOG](http://gigadb.org/dataset/100788)
-7. [Dataset on Emotion with Naturalistic Stimuli (DENS)](https://openneuro.org/datasets/ds003751/versions/1.0.6), EEG, ECG and EMG 
+5. [EEG, EMG, EOG](http://gigadb.org/dataset/100788)
+6. [Dataset on Emotion with Naturalistic Stimuli (DENS)](https://openneuro.org/datasets/ds003751/versions/1.0.6), EEG, ECG, and EMG 
 
 ## Task-Independent Pretraining Large-Scale Dataset
 1. [HBN - Healthy Brain Networks](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/MRI_EEG.html)
@@ -17,14 +16,14 @@
 4. [Latin American Brain Health Institute](https://www.synapse.org/Synapse:syn51549340/wiki/624187)
 5. [Resting-state EEG data before and after cognitive activity across the adult lifespan and a 5-year follow-up](https://openneuro.org/datasets/ds005385/versions/1.0.3) (n=608)
 6. [A large EEG dataset with a simple gambling task](https://osf.io/65x4v/)
-7. [TDBrain Dataset](https://brainclinics.com/resources/) The TDBrain dataset is a dataset of EEG data for 1200 subjects. (need interporlation)
+7. [TDBrain Dataset](https://brainclinics.com/resources/) The TDBrain dataset is EEG data for 1200 subjects. (need interpolation)
 
 ## 32-64 Channels 
 ### Motor-Imagery
 1. **LaBram, NeuroLM Pretrained** [Grasp and Lift EEG Challenge](https://www.kaggle.com/c/grasp-and-lift-eeg-detection/data): 12 subjects, 32channels@500Hz, for 6 grasp and lift  events, namely a). HandStart b). FirstDigitTouch c). Both StartLoadPhase d). LiftOff e). Replace  f). BothReleased
 2. [Multi-channel EEG Recordings During 3,936 Grasp and Lift Trials with Varying Weight and Friction](https://figshare.com/collections/WAY_EEG_GAL_Multi_channel_EEG_Recordings_During_3_936_Grasp_and_Lift_Trials_with_Varying_Weight_and_Friction/988376)
 3. [Mental-Imagery Dataset](https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698): 13 participants with over 60,000 examples of motor imageries in 4 interaction paradigms recorded with 38 38-channel medical-grade EEG system. It contains data for upto 6 mental imageries primarily for the motor movements. [[Article]](https://www.nature.com/articles/sdata2018211#ref-CR57)
-4. [High-Gamma Dataset](https://github.com/robintibor/high-gamma-dataset): 128-electrode dataset obtained from 14 healthy subjects with roughly 1000 four-second trials of executed movements divided into 13 runs per subject.  The four classes of movements were movements of either the left hand, the right hand, both feet, and rest.
+4. [High-Gamma Dataset](https://github.com/robintibor/high-gamma-dataset): 128-electrode dataset obtained from 14 healthy subjects with roughly 1000 four-second trials of executed movements divided into 13 runs per subject.  The four classes of movements were movements of either the left hand, the right hand, both feet, or rest.
 
 ### Emotion Recognition
 1. [DEAP](http://www.eecs.qmul.ac.uk/mmv/datasets/deap/): Includes 32 subjects, each watching 1-min long excerpts of music-videos, rated by users in terms of arousal/valence/like-dislike/dominance/familiarity, and frontal face recording of 22/32 subjects.
@@ -44,10 +43,10 @@
 ### Motor-Imagery
 1. [Left/Right Hand MI](http://gigadb.org/dataset/100295):  Includes 52 subjects (38 validated subjects with discriminative features), results of physiological and psychological questionnaires, EMG Datasets, location of 3D EEG electrodes, and EEGs for non-task related states
 2. **LaBram, NeuroLM Pretrained** [Motor Movement/Imagery Dataset](https://www.physionet.org/content/eegmmidb/1.0.0/): Includes 109 volunteers, 64 electrodes, 2 baseline tasks (eye-open and eye-closed), motor movement, and motor imagery (both fists or both feet)
-3. **LaBram, NeuroLM Pretrained**, **Benchmark Dataset?** [BCI Competition IV-1](http://www.bbci.de/competition/iv/#dataset1): 64 EEG channels at 1000Hz sampling rate for 2 classes of left hand, right hand, foot (+ idle state) for 7 subjects. Evaluation data is continuous EEG which contains also periods of idle state. 
+3. **LaBram, NeuroLM Pretrained**, **Benchmark Dataset?** [BCI Competition IV-1](http://www.bbci.de/competition/iv/#dataset1): 64 EEG channels at 1000Hz sampling rate for 2 classes of left hand, right hand, foot (+ idle state) for 7 subjects. Evaluation data is continuous EEG, which also contains periods of idle state. 
   
 ### Emotion-Recognition
-1. **LaBram, NeuroLM Pretrained** [Enterface'06](http://www.enterface.net/results/): Enterface'06 Project 07: EEG(64 Channels) + fNIRS + face video, Includes 16 subjects, where emotions were elicited through selected subset of IAPS dataset.
+1. **LaBram, NeuroLM Pretrained** [Enterface'06](http://www.enterface.net/results/): Enterface'06 Project 07: EEG(64 Channels) + fNIRS + face video, Includes 16 subjects, where emotions were elicited through a selected subset of the IAPS dataset.
 2. **LaBram, NeuroLM Pretrained**, **Benchmark Dataset** [SEED](http://bcmi.sjtu.edu.cn/~seed/seed.html): 15 subjects were shown video clips eliciting positive/negative/neutral emotion and EEG was recorded over 62 channels.
 3. **LaBram, NeuroLM Pretrained** [SEED-IV](http://bcmi.sjtu.edu.cn/~seed/seed-iv.html): 15 subjects were shown video clips eliciting happy/sad/neutral/fear emotions, and EEG was recorded over 62 channels (with eye-tracking) for 3 sessions per subject (24 trials per session).
 4. **LaBram, NeuroLM Pretrained** SEED-FRA, SEED-GER
@@ -73,44 +72,38 @@
 ### Auditory Stimulus
 1. [OpenMIIR](https://github.com/sstober/openmiir): 10 subjects, 64 EEG Channels for a music imagery task of 12 different pieces w/ different meter, length and tempo. [[Article]](https://pdfs.semanticscholar.org/cde4/b1ec89f2c05a41f1143792a890a00e89541a.pdf)
 2. Dataset from Stanford [NMED-T](https://exhibits.stanford.edu/data/catalog/jn859kj8079), [NMED-H](https://exhibits.stanford.edu/data/catalog/sd922db3535), [NMED-M](https://exhibits.stanford.edu/data/catalog/kt396gb0630), [NMED-E](https://exhibits.stanford.edu/data/catalog/pp371jh5722), [NMED-RP](https://exhibits.stanford.edu/data/catalog/rz763kn3821), [EEG-Recorded Responses to Short Chord Progressions](https://purl.stanford.edu/js383fs8244)
-3. [Characterization of auditory steady state brain responses in time, frequency and space](https://data.ru.nl/collections/di/dccn/DSC_3015000.00_810)
-4. [Auditory EEG](https://www.physionet.org/content/auditory-eeg/1.0.0/)
-5. Music Listening- Genre EEG dataset (MUSIN-G) https://openneuro.org/datasets/ds003774
-6. [An EEG dataset recorded during affective music listening](https://openneuro.org/datasets/ds002721/versions/1.0.3)
+3. [Auditory EEG](https://www.physionet.org/content/auditory-eeg/1.0.0/)
+4. [Music Listening- Genre EEG dataset (MUSIN-G)](https://openneuro.org/datasets/ds003774)
+5. [An EEG dataset recorded during affective music listening](https://openneuro.org/datasets/ds002721/versions/1.0.3)
 
 ### Visual Stimulus
-  1. [MNIST Brain Digits](http://mindbigdata.com/opendb/index.html): EEG data when a digit(0-9) is shown to the subject, recorded 2s for a single subject using Minwave, EPOC, Muse, Insight. Includes over 1.2M samples. (Need Interprolation)
-  2. [Imagenet Brain](http://www.mindbigdata.com/opendb/imagenet.html): A random image is shown (out of 14k images from the Imagenet ILSVRC2013 train dataset) and EEG signals are recorded for 3s for one subject. Includes over 70k samples. (Need Interporlation)
+  1. [MNIST Brain Digits](http://mindbigdata.com/opendb/index.html): EEG data when a digit(0-9) is shown to the subject, recorded 2s for a single subject using Minwave, EPOC, Muse, Insight. Includes over 1.2M samples. (Need interpolation)
+  2. [Imagenet Brain](http://www.mindbigdata.com/opendb/imagenet.html): A random image is shown (out of 14k images from the Imagenet ILSVRC2013 train dataset) and EEG signals are recorded for 3s for one subject. Includes over 70k samples. (Need interpolation)
   3. [EEG-ImageNet](https://github.com/Promise-Z5Q2SQ/EEG-ImageNet-Dataset)
   4. [ThoughtViz](https://github.com/ptirupat/ThoughtViz): consists of 10 different object classes, which is a subset of the ImageNet
   5. [A Representational Similarity Analysis of the Dynamics of Object Processing Using Single-Trial EEG Classification](https://purl.stanford.edu/bq914sc3730)
   6. [Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion](https://github.com/ncclab-sustech/EEG_Image_decode)
   7. [SEED-DV](https://bcmi.sjtu.edu.cn/home/eeg2video/)
   8. [THINGS-EEG](https://figshare.com/articles/dataset/THINGS-EEG/14721282), [THINGS-EEG2](https://osf.io/3jk45/), https://openneuro.org/datasets/ds003825/versions/1.1.0
-  9. [EEG human categorization data](https://www.nitrc.org/projects/eegdataanimal) Subjects are performing a go-nogo categorization task and a go-no recognition task on natural photographs presented very briefly
+  9. [EEG human categorization data](https://www.nitrc.org/projects/eegdataanimal). Subjects are performing a go-nogo categorization task and a go-no recognition task on natural photographs presented very briefly
   10. [EEG/FMRI Naturalistic Viewing Dataset](https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html)
   11. [A large and rich EEG dataset for modeling human visual object recognition](https://osf.io/3jk45/)
   12. [MAMEM SSVEP](https://www.physionet.org/content/mssvepdb/1.0.0/)
   
-### Eye-blinks/movements
-1. [Kara-One](http://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html): Imagined and vocalized phonemic and single-word prompts to access the language and speech production. 14 subjects recorded using a 64-channel Neuroscan Quick-Cap, along with face tracking and audio. [[Article]](http://www.cs.toronto.edu/~complingweb/data/karaOne/ZhaoRudzicz15.pdf)
-2. [EEGEyeNet](https://openreview.net/forum?id=Nc2uduhU9qa): EEG and Eye Tracking recordings from 356 different subjects collected from three different experimental paradigms (left-right, angle-amplitude, and absolute position) and with 128 channels. [[Article]](https://openreview.net/forum?id=Nc2uduhU9qa) [[Data]](https://osf.io/ktv7m/)
-
 ### Clinical EEG
-1. **LaBram, NeuroLM Pretrained**, **Benchmark Dataset** [TUH EEG Resources](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml): Massive amount of data for (i) Abnormal EEG and (ii) EEG Seizures , needs interporlation
+1. **LaBram, NeuroLM Pretrained**, **Benchmark Dataset** [TUH EEG Resources](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml): Massive amount of data for (i) Abnormal EEG and (ii) EEG Seizures, needs interpolation
 2. [Predict-UNM](http://predict.cs.unm.edu/): A large repository of clinical EEG datasets
 3. [ADHD Dataset](https://nda.nih.gov/study.html?id=1938)
 4. [pre- and postsurgical EEG recorded from epilepsy patients and HFO markings](https://gin.g-node.org/USZ_NCH/Scalp_EEG_HFO)
-5. [A dataset of neonatal EEG recordings with seizures annotations](https://zenodo.org/records/2547147)
-6. [Resting State EEG Biomarkers of Cognitive Decline (PLOS ONE - INSPECDS)](https://data.mendeley.com/datasets/wttpypkctg/2)
-7. [CHB-MIT Scalp EEG Database](https://www.physionet.org/content/chbmit/1.0.0/) a collection of EEG recordings of 22 pediatric subjects with intractable seizures
-8. [DREAM: A Dream EEG and Mentation Database](https://bridges.monash.edu/projects/The_Dream_EEG_and_Mentation_DREAM_database/158987)
-9. [SLEEP Dataset](https://sleeptight.isr.uc.pt/)
-10. [AHPHY-SLEEP](https://osf.io/r26fh/)
-11. [Simultaneous EEG and fMRI signals during sleep from humans](https://openneuro.org/datasets/ds003768/versions/1.0.3)
-12. **LaBram, NeuroLM pretrained** [Siena Scalp EEG Database](https://physionet.org/content/siena-scalp-eeg/1.0.0/)
-13. [UC San Diego Resting State EEG Data from Patients with Parkinson's Disease](https://openneuro.org/datasets/ds002778/versions/1.0.5)]
-14. [A complementary dataset of open-eyes EEG recordings in a photo-stimulation setting from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects](https://openneuro.org/datasets/ds006036/versions/1.0.5)
+5. [Resting State EEG Biomarkers of Cognitive Decline (PLOS ONE - INSPECDS)](https://data.mendeley.com/datasets/wttpypkctg/2)
+6. [CHB-MIT Scalp EEG Database](https://www.physionet.org/content/chbmit/1.0.0/) a collection of EEG recordings of 22 pediatric subjects with intractable seizures
+7. [DREAM: A Dream EEG and Mentation Database](https://bridges.monash.edu/projects/The_Dream_EEG_and_Mentation_DREAM_database/158987)
+8. [SLEEP Dataset](https://sleeptight.isr.uc.pt/)
+9. [AHPHY-SLEEP](https://osf.io/r26fh/)
+10. [Simultaneous EEG and fMRI signals during sleep from humans](https://openneuro.org/datasets/ds003768/versions/1.0.3)
+11. **LaBram, NeuroLM pretrained** [Siena Scalp EEG Database](https://physionet.org/content/siena-scalp-eeg/1.0.0/)
+12. [UC San Diego Resting State EEG Data from Patients with Parkinson's Disease](https://openneuro.org/datasets/ds002778/versions/1.0.5)]
+13. [A complementary dataset of open-eyes EEG recordings in a photo-stimulation setting from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects](https://openneuro.org/datasets/ds006036/versions/1.0.5)
 
 ### Language - EEG-To-Text
 1. [Le Petit Prince Hong Kong: Naturalistic fMRI and EEG dataset from older Cantonese speakers](https://openneuro.org/datasets/ds004718)
@@ -120,6 +113,8 @@
 5. [Inner Speech](https://openneuro.org/datasets/ds003626/versions/1.0.1)
 6. [Electrophysiological correlates of semantic dissimilarity reflect the comprehension of natural, narrative speech](https://datadryad.org/dataset/doi:10.5061/dryad.070jc)
 7. [Chisco Dataset](https://openneuro.org/datasets/ds005170/versions/1.1.2)
+8. [Kara-One](http://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html): Imagined and vocalized phonemic and single-word prompts to access the language and speech production. 14 subjects recorded using a 64-channel Neuroscan Quick-Cap, face tracking, and audio. [[Article]](http://www.cs.toronto.edu/~complingweb/data/karaOne/ZhaoRudzicz15.pdf)
+
 
 ### Misc
 1. **LaBram, NeuroLM pretrained** [Raw EEG Data](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/SS2NHB)
